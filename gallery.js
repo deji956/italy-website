@@ -1,5 +1,5 @@
 // ===================================
-// GALLERY FILTERING
+// GALLERY FILTERING 
 // =================================== 
 document.addEventListener('DOMContentLoaded', function() {
     const filterButtons = document.querySelectorAll('.filter-btn');
