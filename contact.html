@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Italy Travel for bookings, inquiries, and travel planning assistance. Get in touch with our expert team today.">
+    <title>Contact Us - Italy Travel | Book Your Italian Adventure</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h2>Italy✈Travel</h2>
+                <p class="tagline">your best travel buddy</p>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="attractions.html">Attractions</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <div class="page-header">
+        <h1>Contact Us</h1>
+        <p>We're here to help plan your perfect Italian adventure</p>
+    </div>
+
+    <!-- Contact Page Content -->
+    <div class="contact-page">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Form -->
+                <div class="contact-form-section">
+                    <h2>Send Us a Message</h2>
+                    <p>Have questions? Want to book a tour? Fill out the form below and we'll get back to you within 24 hours.</p>
+                    
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required placeholder="Enter your full name">
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" placeholder="+1 (555) 123-4567">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="inquiry-type">Inquiry Type *</label>
+                            <select id="inquiry-type" name="inquiry-type" required>
+                                <option value="">Select an option</option>
+                                <option value="booking">Attraction Booking</option>
+                                <option value="tour">Tour Package Inquiry</option>
+                                <option value="custom">Custom Itinerary</option>
+                                <option value="group">Group Travel</option>
+                                <option value="general">General Question</option>
+                                <option value="feedback">Feedback</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="destination">Interested Destination(s)</label>
+                            <input type="text" id="destination" name="destination" placeholder="e.g., Rome, Venice, Amalfi Coast">
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="travel-date">Preferred Travel Date</label>
+                                <input type="date" id="travel-date" name="travel-date">
+                            </div>
+                            <div class="form-group">
+                                <label for="travelers">Number of Travelers</label>
+                                <input type="number" id="travelers" name="travelers" min="1" max="50" placeholder="1">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="6" required placeholder="Tell us about your travel plans, questions, or special requests..."></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="newsletter" id="newsletter">
+                                <span>Subscribe to our newsletter for exclusive deals and travel tips</span>
+                            </label>
+                        </div>
+
+                        <button type="submit" class="btn-submit">Send Message</button>
+                        <div id="formMessage" class="form-message"></div>
+                    </form>
+                </div>
+
+                <!-- Contact Information -->
+                <div class="contact-info-section">
+                    <h2>Get In Touch</h2>
+                    
+                    <div class="contact-info-card">
+                        <div class="info-icon">📧</div>
+                        <h3>Email Us</h3>
+                        <p><a href="mailto:info@italytravel.com">info@italytravel.com</a></p>
+                        <p><a href="mailto:bookings@italytravel.com">bookings@italytravel.com</a></p>
+                        <p class="info-note">Response time: Within 24 hours</p>
+                    </div>
+
+                    <div class="contact-info-card">
+                        <div class="info-icon">📞</div>
+                        <h3>Call Us</h3>
+                        <p><strong>Italy:</strong> <a href="tel:+390612345678">+39 06 1234 5678</a></p>
+                        <p><strong>USA/Canada:</strong> <a href="tel:+18005551234">+1 (800) 555-1234</a></p>
+                        <p><strong>UK:</strong> <a href="tel:+442012345678">+44 20 1234 5678</a></p>
+                        <p class="info-note">Mon-Fri: 9AM-6PM CET<br>Sat: 10AM-4PM CET</p>
+                    </div>
+
+                    <div class="contact-info-card">
+                        <div class="info-icon">📍</div>
+                        <h3>Visit Our Office</h3>
+                        <p>Via Roma 123<br>00186 Rome, Italy</p>
+                        <p class="info-note">By appointment only</p>
+                        <a href="https://www.google.com/maps/place/Rome,+Italy" target="_blank" class="btn-map">View on Map</a>
+                    </div>
+
+                    <div class="contact-info-card">
+                        <div class="info-icon">💬</div>
+                        <h3>Live Chat</h3>
+                        <p>Get instant answers to your questions</p>
+                        <button class="btn-chat" onclick="startLiveChat()">Start Chat</button>
+                        <p class="info-note">Available 9AM-9PM CET</p>
+                    </div>
+
+                    <div class="contact-info-card social-card">
+                        <h3>Follow Us</h3>
+                        <div class="social-links-large">
+                            <a href="https://facebook.com/italytravel" target="_blank" rel="noopener noreferrer">
+                                <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook">
+                                <span>Facebook</span>
+                            </a>
+                            <a href="https://instagram.com/italytravel" target="_blank" rel="noopener noreferrer">
+                                <img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="Instagram">
+                                <span>Instagram</span>
+                            </a>
+                            <a href="https://twitter.com/italytravel" target="_blank" rel="noopener noreferrer">
+                                <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter">
+                                <span>Twitter</span>
+                            </a>
+                            <a href="https://youtube.com/italytravel" target="_blank" rel="noopener noreferrer">
+                                <img src="https://cdn-icons-png.flaticon.com/512/733/733646.png" alt="YouTube">
+                                <span>YouTube</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FAQ Section -->
+            <div class="faq-section">
+                <h2>Frequently Asked Questions</h2>
+                <div class="faq-grid">
+                    <div class="faq-item">
+                        <h3>How far in advance should I book?</h3>
+                        <p>We recommend booking popular attractions and tours 2-3 months in advance, especially for peak season (April-October). Last-minute bookings are sometimes available but not guaranteed.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>What is your cancellation policy?</h3>
+                        <p>Free cancellation up to 24 hours before your scheduled visit for most attractions. Some experiences require 48-72 hours notice. Full details provided at booking.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>Do you offer group discounts?</h3>
+                        <p>Yes! Groups of 10+ people qualify for special pricing on most tours and attractions. Contact us for a custom quote.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>Are your guides licensed?</h3>
+                        <p>Absolutely. All our tour guides are licensed, English-speaking professionals with extensive knowledge of Italian history and culture.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>Can you create custom itineraries?</h3>
+                        <p>Yes! We specialize in personalized travel experiences. Tell us your interests, budget, and travel dates, and we'll design the perfect Italian adventure for you.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>What payment methods do you accept?</h3>
+                        <p>We accept all major credit cards (Visa, Mastercard, American Express), PayPal, and bank transfers for group bookings.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Italy Travel</h3>
+                    <p>Your trusted companion for discovering the wonders of Italy.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="attractions.html">Attractions</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p>📧 info@italytravel.com</p>
+                    <p>📞 +39 06 1234 5678</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="https://facebook.com/italytravel" target="_blank" aria-label="Facebook">
+                            <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" class="social-icon">
+                        </a>
+                        <a href="https://instagram.com/italytravel" target="_blank" aria-label="Instagram">
+                            <img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="Instagram" class="social-icon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

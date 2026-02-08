@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore Italy through stunning photography - from historic landmarks to scenic coastlines, culinary delights to cultural treasures.">
+    <title>Italy Photo Gallery - Inspiring Images | Italy Travel</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h2>Italy✈Travel</h2>
+                <p class="tagline">your best travel buddy</p>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="attractions.html">Attractions</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="gallery.html" class="active">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <div class="page-header">
+        <h1>Italy Photo Gallery</h1>
+        <p>Discover the beauty of Italy through stunning imagery</p>
+    </div>
+
+    <!-- Gallery Content -->
+    <div class="gallery-page">
+        <div class="container">
+            <!-- Gallery Filter -->
+            <div class="gallery-filter">
+                <button class="filter-btn active" data-filter="all">All Photos</button>
+                <button class="filter-btn" data-filter="landmarks">Historic Landmarks</button>
+                <button class="filter-btn" data-filter="nature">Nature & Coastline</button>
+                <button class="filter-btn" data-filter="food">Food & Wine</button>
+                <button class="filter-btn" data-filter="culture">Art & Culture</button>
+            </div>
+
+            <!-- Gallery Grid -->
+            <div class="gallery-grid">
+                <!-- Landmarks -->
+                <div class="gallery-item landmarks" data-category="landmarks">
+                    <img src="https://images.unsplash.com/photo-1552832230-c0197dd311b5" alt="Colosseum Rome">
+                    <div class="gallery-overlay">
+                        <h3>The Colosseum</h3>
+                        <p>Rome, Italy</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item landmarks" data-category="landmarks">
+                    <img src="https://images.unsplash.com/photo-1531572753322-ad063cecc140" alt="Vatican Museums">
+                    <div class="gallery-overlay">
+                        <h3>Vatican Museums</h3>
+                        <p>Vatican City</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item landmarks" data-category="landmarks">
+                    <img src="https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b" alt="Florence Duomo">
+                    <div class="gallery-overlay">
+                        <h3>Florence Cathedral</h3>
+                        <p>Florence, Tuscany</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item landmarks" data-category="landmarks">
+                    <img src="https://images.unsplash.com/photo-1525874684015-58379d421a52" alt="Trevi Fountain">
+                    <div class="gallery-overlay">
+                        <h3>Trevi Fountain</h3>
+                        <p>Rome, Italy</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item landmarks" data-category="landmarks">
+                    <img src="https://images.unsplash.com/photo-1555400038-63f5ba517a47" alt="Roman Forum">
+                    <div class="gallery-overlay">
+                        <h3>Ancient Roman Forum</h3>
+                        <p>Rome, Italy</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item landmarks" data-category="landmarks">
+                    <img src="https://images.unsplash.com/photo-1603565816030-6b389eeb23cb" alt="Pompeii">
+                    <div class="gallery-overlay">
+                        <h3>Pompeii Ruins</h3>
+                        <p>Naples, Campania</p>
+                    </div>
+                </div>
+
+                <!-- Nature & Coastline -->
+                <div class="gallery-item nature" data-category="nature">
+                    <img src="https://images.unsplash.com/photo-1516483638261-f4dbaf036963" alt="Amalfi Coast">
+                    <div class="gallery-overlay">
+                        <h3>Amalfi Coast</h3>
+                        <p>Campania, Italy</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item nature" data-category="nature">
+                    <img src="https://images.unsplash.com/photo-1498503182468-3b51cbb6cb24" alt="Cinque Terre">
+                    <div class="gallery-overlay">
+                        <h3>Cinque Terre Villages</h3>
+                        <p>Liguria, Italy</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item nature" data-category="nature">
+                    <img src="https://images.unsplash.com/photo-1513581166391-887a96ddeafd" alt="Lake Como">
+                    <div class="gallery-overlay">
+                        <h3>Lake Como</h3>
+                        <p>Lombardy, Italy</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item nature" data-category="nature">
+                    <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4" alt="Dolomites">
+                    <div class="gallery-overlay">
+                        <h3>The Dolomites</h3>
+                        <p>Northern Italy</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item nature" data-category="nature">
+                    <img src="https://images.unsplash.com/photo-1527489377706-5bf97e608852" alt="Italian Countryside">
+                    <div class="gallery-overlay">
+                        <h3>Tuscan Countryside</h3>
+                        <p>Tuscany, Italy</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item nature" data-category="nature">
+                    <img src="https://images.unsplash.com/photo-1523906834658-6e24ef2386f9" alt="Italian Coast">
+                    <div class="gallery-overlay">
+                        <h3>Mediterranean Coastline</h3>
+                        <p>Southern Italy</p>
+                    </div>
+                </div>
+
+                <!-- Food & Wine -->
+                <div class="gallery-item food" data-category="food">
+                    <img src="https://images.unsplash.com/photo-1534308983496-4fabb1a015ee" alt="Italian Pizza">
+                    <div class="gallery-overlay">
+                        <h3>Authentic Neapolitan Pizza</h3>
+                        <p>Naples, Campania</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item food" data-category="food">
+                    <img src="https://images.unsplash.com/photo-1551218808-94e220e084d2" alt="Italian Pasta">
+                    <div class="gallery-overlay">
+                        <h3>Fresh Handmade Pasta</h3>
+                        <p>Traditional Italian Cuisine</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item food" data-category="food">
+                    <img src="https://images.unsplash.com/photo-1510812431401-41d2bd2722f3" alt="Wine Vineyard">
+                    <div class="gallery-overlay">
+                        <h3>Tuscan Vineyards</h3>
+                        <p>Chianti, Tuscany</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item food" data-category="food">
+                    <img src="https://images.unsplash.com/photo-1606923829579-0cb981a83e2e" alt="Italian Gelato">
+                    <div class="gallery-overlay">
+                        <h3>Artisan Gelato</h3>
+                        <p>Florence, Italy</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item food" data-category="food">
+                    <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836" alt="Italian Food">
+                    <div class="gallery-overlay">
+                        <h3>Italian Culinary Delights</h3>
+                        <p>Traditional Recipes</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item food" data-category="food">
+                    <img src="https://images.unsplash.com/photo-1478144592103-25e218a04891" alt="Italian Coffee">
+                    <div class="gallery-overlay">
+                        <h3>Italian Espresso Culture</h3>
+                        <p>Café Tradition</p>
+                    </div>
+                </div>
+
+                <!-- Art & Culture -->
+                <div class="gallery-item culture" data-category="culture">
+                    <img src="https://images.unsplash.com/photo-1541623089466-8e777dd05d70" alt="Renaissance Art">
+                    <div class="gallery-overlay">
+                        <h3>Renaissance Masterpieces</h3>
+                        <p>Uffizi Gallery, Florence</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item culture" data-category="culture">
+                    <img src="https://images.unsplash.com/photo-1514890547357-a9ee288728e0" alt="Venice Gondola">
+                    <div class="gallery-overlay">
+                        <h3>Venetian Gondolas</h3>
+                        <p>Venice, Italy</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item culture" data-category="culture">
+                    <img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96" alt="Italian Architecture">
+                    <div class="gallery-overlay">
+                        <h3>Italian Architecture</h3>
+                        <p>Historic Buildings</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item culture" data-category="culture">
+                    <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8" alt="Italian Fashion">
+                    <div class="gallery-overlay">
+                        <h3>Italian Fashion</h3>
+                        <p>Milan, Italy</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item culture" data-category="culture">
+                    <img src="https://images.unsplash.com/photo-1555992336-fb0d29498b13" alt="Italian Culture">
+                    <div class="gallery-overlay">
+                        <h3>Italian Traditions</h3>
+                        <p>Cultural Heritage</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item culture" data-category="culture">
+                    <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b" alt="Italian Street Life">
+                    <div class="gallery-overlay">
+                        <h3>La Dolce Vita</h3>
+                        <p>Italian Street Life</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Load More Button -->
+            <div class="load-more-container">
+                <button class="btn-load-more">Load More Photos</button>
+            </div>
+
+            <!-- Travel Inspiration CTA -->
+            <section class="inspiration-cta">
+                <h2>Let These Scenes Inspire Your Journey</h2>
+                <p>Ready to experience Italy's beauty in person? Start planning your adventure today.</p>
+                <div class="cta-buttons">
+                    <a href="attractions.html" class="btn-cta primary">Explore Attractions</a>
+                    <a href="contact.html" class="btn-cta secondary">Plan Your Trip</a>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <div class="lightbox-caption" id="lightbox-caption"></div>
+        <button class="lightbox-prev">&#10094;</button>
+        <button class="lightbox-next">&#10095;</button>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Italy Travel</h3>
+                    <p>Your trusted companion for discovering the wonders of Italy.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="attractions.html">Attractions</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p>📧 info@italytravel.com</p>
+                    <p>📞 +39 06 1234 5678</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="https://facebook.com/italytravel" target="_blank" aria-label="Facebook">
+                            <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" class="social-icon">
+                        </a>
+                        <a href="https://instagram.com/italytravel" target="_blank" aria-label="Instagram">
+                            <img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="Instagram" class="social-icon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="gallery.js"></script>
+</body>
+</html>
